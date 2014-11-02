@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>{% block title %}Untitled{% endblock %} | Todo list with permissions</title>
+</head>
+<body>
+<h1>Todo CRUD/Permissions example!</h1>
+<a href="{% url 'app_list' %}">Index</a>{% if perms.app.add_app %} | <a href="{% url 'app_create' %}">Add Todo</a>{% endif %}
+<hr/>
+{% block content %}
+The end user should never ever see this!
+{% endblock %}
+</body>
+</html>

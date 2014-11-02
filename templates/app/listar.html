@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+
+{% block title %}{{todo}}{% endblock %}
+
+{% block content %}
+<ul>
+{% for item in porhacer %}
+
+    <li>{{ item }}</li>
+
+{% endfor %}
+
+</ul>
+{% endblock %}

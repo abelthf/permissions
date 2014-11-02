@@ -1,0 +1,9 @@
+€}q(Upermisos.settings]q(UTEMPLATE_DIRSqUUSE_L10NqULANGUAGE_CODEqUUSE_TZqUUSE_I18NqU	DATABASESqU	TIME_ZONEq	U
+STATIC_URLq
+UROOT_URLCONFqUTEMPLATE_DEBUGqUWSGI_APPLICATIONqUMIDDLEWARE_CLASSESqUDEBUGqUALLOWED_HOSTSqU
+SECRET_KEYqUINSTALLED_APPSqUBASE_DIRqeU	app.views]q(UTodoListqU
+TodoDetailqU
+TodoDeleteqU
+TodoCreateqU
+TodoUpdateqUlistarqeU	app.forms]qUTodoFormqaU
+app.models]qUTodoqaUpermisos.urls]qUurlpatternsq au.
